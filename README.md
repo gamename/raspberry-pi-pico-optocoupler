@@ -41,8 +41,10 @@ expected when I opened the doors.  But the LEDs would NOT turn off when both doo
 are not interrupted by the wedges I had screwed to the doors.  Alignment problem of some kind, no doubt.  
 
 But after re-re-checking alignment, it was clear they were exactly where they should be: positioned between the beam 
-emitter and receiver when the door was closed.  After much experimentation, I figured out the *color* of the wedge was key.  My example was light colored.  I tried putting a white sheet of paper in the slot (between transmitter 
-and receiver) and got the same result. The coupler didn't consider itself "blocked". But it would consider itself blocked if something dark were used. 
+emitter and receiver when the door was closed.  
+
+After much experimentation, I figured out the *color* of the wedge was key.  My example was light colored.  I tried putting a white sheet of paper in the slot (between transmitter 
+and receiver) and got the same result. The coupler didn't consider itself "blocked". I then tried a dark sheet of paper and got a successful result.  Therefore, the coupler would consider itself blocked if something dark was used. 
 
 On a hunch, I wrapped black electrical tape around the wedges (see pics below) and it worked! The coupler finally considered itself
 blocked with the doors closed.  The LEDs dutifully turned off. 
