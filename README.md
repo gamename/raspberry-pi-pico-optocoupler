@@ -22,6 +22,11 @@ each door is a small plastic wedge which fits in the opto-coupler's slot. When t
 wedge interrupts the beam sent from one arm of the slot to the other. Conversely, when the door is open,
 the wedge is pulled away and the beam is uninterrupted. 
 
+## Hardware Notes
+the Pico assembly is housed in a small project box. The Pico itself sits on a breakout board. (Why a breakout board? Because it makes it easy to switch out the Pico if you need to. By using a breakout board, you can just remove and replace the Pico instead of uninstalling the whole thing) Tiny nylon screws and bolts to secure the breakout board to the project box. 
+
+On the back of the project box are strips of magnetic tape. There are also strips of magnetic tape on the wall of the cupboard. Contact between these two sets of strips is what secures the project box in place on the wall.
+
 ### Wiring
 
 
@@ -51,8 +56,6 @@ blocked with the doors closed.  The LEDs dutifully turned off.
 
 Bottom line: Whatever blocks the beam on the coupler needs to be dark.
 
-## Pictures 
-
 ## Parts List
 raspberry pi Pico
 Pico breakout board
@@ -73,6 +76,9 @@ nylon screws and bolts
 wire cutters
 Dupont wire connectors
 Dupont wire connector crimping tool
+
+
+## Pictures
 
 
 
