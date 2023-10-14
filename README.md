@@ -10,7 +10,7 @@ as far as I know, there are few documented examples of opto-couplers for the Pic
 ### Opto-Couplers 
 Someone suggested I try [opto-couplers](https://en.wikipedia.org/wiki/Opto-isolator) instead of 
 [reed switches](https://en.wikipedia.org/wiki/Reed_switch) to sense when a door is open.  That sounded 
-like a good idea, so this project uses opto-couplers exclusively. [Here](https://www.amazon.com/dp/B08977QFK5?psc=1&ref=ppx_yo2ov_dt_b_product_details) 
+like a good idea, so this project uses them exclusively. [Here](https://www.amazon.com/dp/B08977QFK5?psc=1&ref=ppx_yo2ov_dt_b_product_details) 
 is the particular one I'm using.
 
 
