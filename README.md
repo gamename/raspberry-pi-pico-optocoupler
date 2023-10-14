@@ -51,7 +51,7 @@ But after re-re-re-checking alignment, it was clear they were exactly where they
 emitter and receiver when the door was closed.  
 
 After much experimentation, I figured out the *color* of the wedge was key.  In my case, the wedge was light colored plastic. When I tried putting a white sheet of paper in the slot (between transmitter 
-and receiver) I got the same result. The coupler didn't consider itself "blocked". I then tried a dark sheet of paper and got a successful result.  Therefore, the coupler would only consider itself blocked if something dark was used. 
+and receiver) I got the same result. The coupler didn't consider itself "blocked". I then tried a dark sheet of paper and got a successful result.  Therefore, the coupler would only consider itself blocked if something dark was used to block the light beam.  
 
 On a hunch, I wrapped black electrical tape around the wedges (see pics below) and it worked! The coupler finally considered itself
 blocked with the doors closed.  The LEDs dutifully turned off. 
