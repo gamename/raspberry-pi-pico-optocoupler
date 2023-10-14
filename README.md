@@ -29,7 +29,7 @@ On the back of the project box are strips of magnetic tape. There are also strip
 
 
 ### A Hack
-I spent a lot of time looking for something to be used for a wedge to interrupt the signal between the two arms of the slotted optical coupler.  It needed to be something unobtrusive but sturdy and could be mounted on the cupboard door. After a long exploration up the Amazon, I finally found what I was looking for.  [These](https://a.co/d/6UiyFLb) are sliding door floor guides. They are exactly the sturdiness and size I was looking for. Mounted on the cupboard door, they worked out perfectly - well, almost perfectly. I'll cover that part below. 
+I spent a lot of time looking for something to be used for a wedge to interrupt the signal between the two arms of the slotted optical coupler.  It needed to be something unobtrusive but sturdy and could be mounted on the cupboard door. After paddling far up the Amazon, I finally found what I was looking for.  [These](https://a.co/d/6UiyFLb) are sliding door floor guides. They are exactly the sturdiness and size I was looking for. Mounted on the cupboard door, they worked out perfectly - well, almost perfectly. I'll cover that part below. 
 
 
 ## Lessons Learned 
