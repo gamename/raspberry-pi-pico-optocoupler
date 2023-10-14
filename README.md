@@ -42,13 +42,38 @@ are not interrupted by the wedges I had screwed to the doors.  Alignment problem
 
 But after re-re-checking alignment, it was clear they were exactly where they should be: positioned between the beam 
 emitter and receiver when the door was closed.  After much experimentation, I figured out the *color* of the wedge was key.  My example was light colored.  I tried putting a white sheet of paper in the slot (between transmitter 
-and receiver) and the same result. The coupler didn't consider itself "blocked".  
+and receiver) and got the same result. The coupler didn't consider itself "blocked". But it would consider itself blocked if something dark were used. 
 
-On a hunch, I wrapped black electrical tape around the wedges (see pics below) and it worked! The coupler considered itself
-"blocked" with the doors closed.  The LEDs dutifully went off. 
+On a hunch, I wrapped black electrical tape around the wedges (see pics below) and it worked! The coupler finally considered itself
+blocked with the doors closed.  The LEDs dutifully turned off. 
 
 Bottom line: Whatever blocks the beam on the coupler needs to be dark.
 
 ## Pictures 
 
 ## Parts List
+raspberry pi Pico
+Pico breakout board
+optocouplers
+project box
+magnetic tape
+sliding door guides (hack to create the wedges)
+black electrical tape
+wire
+wire joiners
+USB power supply
+USB power cable
+wood screws
+drill
+Phillips head screwdriver drill bit
+5/32" drill bit
+nylon screws and bolts
+wire cutters
+Dupont wire connectors
+Dupont wire connector crimping tool
+
+
+
+
+
+
