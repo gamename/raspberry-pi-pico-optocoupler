@@ -1,6 +1,6 @@
 """
-A simple script to turn on/off a WS2812 LED strip based on the state of a pair of slotted opto-couplers
-mounted on the 2 doors of a cabinet.
+A simple script to turn on/off a LED strip based on the state of a pair of slotted opto-couplers
+mounted on a double-door cabinet.
 
 Here is the specific model of optocoupler:
     https://www.amazon.com/dp/B08977QFK5?psc=1&ref=ppx_yo2ov_dt_b_product_details
@@ -24,9 +24,10 @@ Tested on:
    MicroPython v1.21.0 on 2023-10-06; Raspberry Pi Pico with RP2040
 
 """
+import time
+
 import neopixel
 from machine import Pin
-import time
 
 # Pin configuration
 left_door_optocoupler_pin = Pin(0, Pin.IN, Pin.PULL_UP)
