@@ -83,28 +83,29 @@ No self-respecting Pico project would be complete without a Fritzing diagram. He
 ![](.README_images/bc63a642.png)
 
 ## Parts List
-raspberry pi Pico
-Pico breakout board
-optocouplers
-project box
-magnetic tape
-double-sided tape
-sliding door guides (hacked to create the wedges)
-black electrical tape
-wire
-wire joiners
-USB power supply
-USB power cable
-wood screws
-drill
-Phillips head screwdriver drill bit
-3/32" drill bit
-nylon screws and bolts
-wire cutters
-BTF Lighting 3-Pin Connectors (1 Male/3 Female)
-BTF Lighting WS2812B LED Strip
-LED Strip Couplers (1)
-headlamp (optional - comes in handy under a sink or in a cupboard)
+
+raspberry pi Pico<br>
+Pico breakout board<br>
+optocouplers<br>
+project box<br>
+magnetic tape<br>
+double-sided tape<br>
+sliding door guides (hacked to create the wedges)<br>
+black electrical tape<br>
+wire<br>
+wire joiners<br>
+USB power supply<br>
+USB power cable<br>
+wood screws<br>
+drill<br>
+Phillips head screwdriver drill bit<br>
+3/32" drill bit<br>
+nylon screws and bolts<br>
+wire cutters<br>
+BTF Lighting 3-Pin Connectors (1 Male/3 Female)<br>
+BTF Lighting WS2812B LED Strip<br>
+LED Strip Couplers (1)<br>
+headlamp (optional - comes in handy under a sink or in a cupboard)<br>
 
 
 ## Pictures
