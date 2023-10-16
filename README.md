@@ -1,5 +1,19 @@
-## Overview
+## Table of Contents
 
+- [Overview](#overview)
+- [Technical Details](#technical-details)
+- [Opto-Couplers](#opto-couplers)
+- [State Detection](#state-detection)
+- [Hardware Notes](#hardware-notes)
+- [A Hack](#a-hack)
+- [LED Strip](#led-strip)
+- [Lessons Learned](#lessons-learned)
+- [Gotchas ](#gotchas-)
+- [Wiring](#wiring)
+- [Parts List](#parts-list)
+- [Pictures](#pictures)
+
+## Overview
 This is a Raspberry Pi Pico project to turn on/off a strip of LEDs in a cabinet. The cabinet has double
 doors. If either door is opened, the LED strip is turned on. When both doors are closed, the
 LED strip is turned off. Opro-couplers are used to detect when the doors are open or closed.
@@ -8,13 +22,12 @@ LED strip is turned off. Opro-couplers are used to detect when the doors are ope
 Even though this is programmatically very simple, I'm going to the trouble of writing this because 
 as far as I know, there are few documented examples of opto-couplers for the Pico. 
 
-### Opto-Couplers
-
+## Opto-Couplers
 Someone suggested I try [opto-couplers](https://en.wikipedia.org/wiki/Opto-isolator) instead of [reed switches](https://en.wikipedia.org/wiki/Reed_switch)
 to sense when a door is open. That sounded like a good idea, so this project uses them exclusively. [Here](https://www.amazon.com/dp/B08977QFK5?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 is the particular one I'm using.
 
-### State Detection
+## State Detection
 Since there are 2 doors on the cabinet, there are 2 opto-couplers to detect their individual status. Each 
 opto-coupler is mounted on the door frame in the upper left and right respectively (see pics below). On 
 each door is a small plastic wedge which fits in the opto-coupler's slot. When the door is closed, the
@@ -35,7 +48,7 @@ connections terminate in a BTF female connector (to match the coupler's male con
 On the back of the project box are strips of magnetic tape. There are also strips of magnetic tape on the wall
 of the cupboard. Contact between these two sets of strips is what secures the project box in place on the wall.
 
-### A Hack
+## A Hack
 I spent a lot of time looking for something to be used for a wedge to interrupt the signal between the two arms of
 the slotted optical coupler. It needed to be something unobtrusive but sturdy and could be mounted on the cupboard
 door. After paddling far up the Amazon, I finally found what I was looking for.  [These](https://a.co/d/6UiyFLb) are
@@ -43,7 +56,6 @@ sliding door floor guides. They are exactly the sturdiness and size I was lookin
 they worked out perfectly - well, almost perfectly. I'll cover that part below.
 
 ## LED Strip
-
 The LED strip is a ws2812b strip mounted on the inside of the cupboard. There are 2 things worth mentioning
 about it. One, I used a strip-to-wire connector (see pic below) to avoid soldering on the strip. Secondly,
 I used double-sided tape to mount the strip (pic below). On the strip is a female BTF connector.
@@ -79,12 +91,11 @@ considered itself blocked with the doors closed. The LEDs dutifully turned off.
 
 Bottom line: Whatever blocks the beam on the coupler needs to be dark. Odd. 
 
-### Wiring
+## Wiring
 No self-respecting Pico project would be complete without a Fritzing diagram. Here's mine.
 ![](.README_images/bc63a642.png)
 
 ## Parts List
-
 [raspberry pi Pico](https://www.amazon.com/dp/B08W3SH4TD?ref=ppx_yo2ov_dt_b_product_details&th=1)<br>
 [Pico breakout board](https://www.amazon.com/gp/product/B0BGHQXSRR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)<br>
 [optocouplers](https://www.amazon.com/gp/product/B08977QFK5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)<br>
@@ -109,7 +120,6 @@ B[TF Lighting 3-Pin Connectors (1 Male/3 Female)](https://www.amazon.com/gp/prod
 [headlamp](https://www.amazon.com/Foxelli-Headlamp-Flashlight-Lightweight-Waterproof/dp/B014JUMTXM/ref=sr_1_1_sspa?crid=132BLWIWJKDMC&keywords=headlamp&qid=1697418825&sprefix=headlamp%2Caps%2C138&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1) (optional - comes in handy under a sink or in a cupboard)<br>
 
 ## Pictures
-
 ![](.README_images/e713a9ad.png)
 *Project box with all connections*
 
